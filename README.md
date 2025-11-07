@@ -5,8 +5,8 @@
 
 ## Структура каталога
 
-- `internal/service` — модели, статистика и mock-реализация внешних зависимостей (`GetUser`, `GetMessages`, `HasSpam`).
-- `internal/pipeline` — команды конвейера и тесты для модульной версии.
+- `internal/service` - модели, статистика и mock-реализация внешних зависимостей.
+- `internal/pipeline` - команды конвейера и тесты для модульной версии.
 
 
 ## Запуск тестов
@@ -21,5 +21,6 @@ go test ./...
 go test -coverprofile=cover.out ./...
 go tool cover -html=cover.out -o cover.html
 ```
+
 
 
